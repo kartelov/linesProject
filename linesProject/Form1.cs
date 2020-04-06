@@ -83,7 +83,7 @@ namespace WindowsFormsApplication7
             {
                 len += increment;
                 ang += angle;
-                aincr += aincr;
+                //aincr += aincr;
                 //ang -= aincr;
                 endX = (int)(startX + Math.Cos(ang * 0.0174532925) * len);
                 endY = (int)(startY + Math.Sin(ang * 0.0174532925) * len);
