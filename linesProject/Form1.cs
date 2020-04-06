@@ -42,6 +42,8 @@ namespace WindowsFormsApplication7
        
         private void button1_Click(object sender, EventArgs e)
         {
+
+
             lines = Int32.Parse(textBox1.Text);
             angle = Int32.Parse(textBox2.Text);
             length = Int32.Parse(textBox3.Text);
